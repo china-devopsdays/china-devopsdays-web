@@ -1,4 +1,4 @@
-baseurl = "https://china-devopsdays.github.io/"
+baseurl = "/"
 title = "中国DevOpsDays社区"
 theme = "hugo-universal-theme"
 # themesDir = "../.."
