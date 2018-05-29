@@ -1,14 +1,15 @@
-#language: python
-#python:
-#    - "3.6"
+language: python
+python:
+    - "3.6"
 
+before_install:
+  - sudo apt-get -qq update
 
+# install - install any dependencies required
 install:
     # install latest release version
-#    - wget $(wget -qO- https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-64bit.deb/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p}}')
-#    - sudo dpkg -i hugo*.deb
-#    - pip install Pygments
-    - go get -v github.com/spf13/hugo
+    - wget $(wget -qO- https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-64bit.deb/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p}}')
+    - sudo dpkg -i hugo*.deb
     - rm -rf public 2> /dev/null
 
 
