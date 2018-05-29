@@ -169,7 +169,7 @@ paginate = 10
     enable = true
     icon = "fa fa-pagelines"
     title = "参与进来"
-    subtitle = "加入 Service Mesh 爱好者群体"
+    subtitle = "加入 DevOps 爱好者群体"
     link_url = "/contact"
     link_text = "查看加入方式"
 
@@ -179,7 +179,7 @@ paginate = 10
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
     title = "参与者"
-    subtitle = "Envoy官方文档中文版卓越贡献者"
+    subtitle = "DevOps知识库卓越贡献者"
 
 [params.recent_posts]
     enable = true
