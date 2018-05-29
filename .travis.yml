@@ -1,0 +1,28 @@
+language: python
+python:
+    - "3.6"
+install:
+    # install latest release version
+    - wget $(wget -qO- https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-64bit.deb/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p}}')
+    - sudo dpkg -i hugo*.deb
+    - pip install Pygments
+    - rm -rf public 2> /dev/null
+
+
+
+script:
+  - hugo # This commands builds your website on travis
+  - cp README.md public
+
+
+deploy:
+  local_dir: public # Default static site output dir for Hugo
+  repo: china-devopsdays/china-devopsdays.github.io # This is the slug of the repo you want to deploy your site to
+  target_branch: master # GitHub pages branch to deploy to (in other cases it can be gh-pages)
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN # This is the authentication which you will setup in the next step in travis-ci dashboard
+  email: liuzh66@gmail.com
+  name: "Martin Liu"
+  on:
+    branch: master
