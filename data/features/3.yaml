@@ -1,4 +1,4 @@
 weight: 3
 name: "Measurement-度量"
-icon: "fa fa-lightbulb-o"
+icon: "fa fa-tachometer"
 description: "建立全面覆盖的可灵活使用的监控度量基础架构，运维团队为开发和其它所有人员提供生产环境的监控反馈信息，把监控度量指标和日志辐射到价值流中的所有人。"

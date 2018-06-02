@@ -1,4 +1,4 @@
 weight: 5
-name: "Culture-文化"
-icon: "fa fa-lightbulb-o"
-description: "将研发团队的知识集成到运维的日常工作中，可以通过让开发人员也参与运维人员的值守，建立相互最终和责任共担的文化。"
+name: "DevOps的历史"
+icon: "fa fa-birthday-cake"
+description: "DevOps这个词来源于2009年在比利时根特市举办的首届DevOpsDays大会，为了在Twitter上更方便的传播，由DevOpsDays缩写为DevOps。"

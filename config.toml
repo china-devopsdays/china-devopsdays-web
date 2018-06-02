@@ -44,30 +44,36 @@ paginate = 10
     weight = 4
 
 [[menu.main]]
+    name = "speaking"
+    url  = "/speaking/"
+    identifier = "speaking"
+    weight = 5
+
+[[menu.main]]
     name = "Organizing"
     url  = "/organizing/"
     identifier = "organizing"
-    weight = 5
+    weight = 6
 
 [[menu.main]]
     name = "About"
     url  = "/about/"
     identifier = "about"
-    weight = 6
+    weight = 7
 
 # Top bar social links menu
 
 [[menu.topbar]]
     weight = 1
     name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
+    url = "https://github.com/china-devopsdays/china-devopsdays-web"
     pre = "<i class='fa fa-2x fa-github'></i>"
 
 [[menu.topbar]]
     weight = 2
-    name = "Facebook"
-    url = "http://facebook.com"
-    pre = "<i class='fa fa-2x fa-facebook'></i>"
+    name = "Weibo"
+    url = "http://weibo.com"
+    pre = "<i class='fa fa-2x fa-weibo'></i>"
 
 [[menu.topbar]]
     weight = 3
@@ -169,7 +175,7 @@ paginate = 10
     enable = true
     icon = "fa fa-pagelines"
     title = "参与进来"
-    subtitle = "加入 DevOps 爱好者群体"
+    subtitle = "加入中国DevOps实践者的社区"
     link_url = "/contact"
     link_text = "查看加入方式"
 
@@ -179,7 +185,7 @@ paginate = 10
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
     title = "参与者"
-    subtitle = "DevOps知识库卓越贡献者"
+    subtitle = "从关注、到加入，到贡献，社区欢迎各个层次的参与者"
 
 [params.recent_posts]
     enable = true

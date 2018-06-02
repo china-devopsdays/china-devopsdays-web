@@ -1,4 +1,4 @@
 weight: 6
-name: "Culture-文化"
-icon: "fa fa-lightbulb-o"
-description: "将研发团队的知识集成到运维的日常工作中，可以通过让开发人员也参与运维人员的值守，建立相互最终和责任共担的文化。"
+name: "管理实践大融合"
+icon: "fa fa-connectdevelop"
+description: "DevOps涉及到的IT管理实践有很多，从业务运营管理到敏捷软件开发，从持续交付到IT服务管理，从精益管理到用户体验管理，还有测试、信息安全等各个方面。"
