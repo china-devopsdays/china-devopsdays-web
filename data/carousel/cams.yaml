@@ -1,0 +1,11 @@
+weight: 3
+title: "DevOps运动"
+description: >
+  <ul class="list-style-none">
+    <li>DevOps运动</li>
+    <li>culture 文化</li>
+    <li>automation 自动化</li>
+    <li>measurement 度量</li>
+    <li>share 分享</li>
+  </ul>
+image: "img/carousel/bg1.png"
