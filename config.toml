@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = ""
 title = "中国DevOpsDays社区"
 theme = "hugo-universal-theme"
 # themesDir = "../.."
@@ -169,15 +169,15 @@ paginate = 10
     # at 'exampleSite/data/testimonials'.
     # For more informtion take a look at the README.
     title = "社区活动"
-    subtitle = "我们会不定期得在线上和线下举办精彩的活动，敬请关注，下面是历史活动记录"
+    subtitle = "在全国各个城市，由志愿者定期地在线上和线下举办聚会活动，敬请关注，近期的社区动态如下"
 
 [params.see_more]
     enable = true
-    icon = "fa fa-pagelines"
-    title = "参与进来"
-    subtitle = "加入中国DevOps实践者的社区"
-    link_url = "/contact"
-    link_text = "查看加入方式"
+    icon = "fa fa-bullhorn"
+    title = "参与社区"
+    subtitle = "加入开放型的中国DevOps实践者社区，欢迎个人和企业自由的形式加入，并参与社区的建设和DevOps运动"
+    link_url = "/organizing/"
+    link_text = "查看组织方式"
 
 [params.clients]
     enable = true
@@ -190,4 +190,4 @@ paginate = 10
 [params.recent_posts]
     enable = true
     title = "最新博客"
-    subtitle = "社区参与者的博客与最 in 的新闻都在这里"
+    subtitle = "社区的最新动态和知识库文章，包括最新活动和大会的分享"
