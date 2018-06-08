@@ -1,7 +1,7 @@
 ---
 title: "畅销书《凤凰项目》之后-作者对DevOps的深度思考"
 date: 2018-06-06T06:44:46+08:00
-draft: true
+draft: false
 banner: "https://ws1.sinaimg.cn/large/00704eQkgy1frk001fkixj30rs0ku4qp.jpg"
 author: "admin"
 summary: "《凤凰项目》是Gene Kim作为主创于2013年出版的一本小说体IT管理读物，是公认的DevOps入门第一本书。这本书从构思到成书花了10多年时间，出版之后获得了巨大的成功。
