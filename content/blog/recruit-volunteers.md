@@ -2,7 +2,7 @@
 title: "招募社区志愿者的通知"
 date: 2018-03-28T06:44:46+08:00
 draft: false
-banner: https://china-devopsdays.github.io/old/IMG_0091.jpg
+banner: https://china-devopsdays.github.io/old/IMG_0210.jpg
 author: "刘征"
 tags: ["devops","志愿者"]
 categories: ["devops"]
@@ -10,7 +10,7 @@ categories: ["devops"]
 
 
 
-![IMG_0091](https://china-devopsdays.github.io/old/IMG_0091.jpg)
+![IMG_0091](https://china-devopsdays.github.io/old/IMG_0210.jpg)
 
 
 ## 指导思想
