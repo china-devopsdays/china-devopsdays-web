@@ -8,7 +8,7 @@ categories: ["devops"]
 ---
 
 
-![](https://china-devopsdays.github.io/old/1405339484988-1140x570.jpg)
+![](https://china-devopsdays.github.io/old/1405339484988.jpg)
 
 
 [https://www.bagevent.com/event/510260?bag_track=bagevent](https://www.bagevent.com/event/510260?bag_track=bagevent)
