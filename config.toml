@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = ""
 title = "中国DevOpsDays社区"
 theme = "hugo-universal-theme"
 # themesDir = "../.."
@@ -44,30 +44,36 @@ paginate = 10
     weight = 4
 
 [[menu.main]]
+    name = "speaking"
+    url  = "/speaking/"
+    identifier = "speaking"
+    weight = 5
+
+[[menu.main]]
     name = "Organizing"
     url  = "/organizing/"
     identifier = "organizing"
-    weight = 5
+    weight = 6
 
 [[menu.main]]
     name = "About"
     url  = "/about/"
     identifier = "about"
-    weight = 6
+    weight = 7
 
 # Top bar social links menu
 
 [[menu.topbar]]
     weight = 1
     name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
+    url = "https://github.com/china-devopsdays/china-devopsdays-web"
     pre = "<i class='fa fa-2x fa-github'></i>"
 
 [[menu.topbar]]
     weight = 2
-    name = "Facebook"
-    url = "http://facebook.com"
-    pre = "<i class='fa fa-2x fa-facebook'></i>"
+    name = "Weibo"
+    url = "http://weibo.com"
+    pre = "<i class='fa fa-2x fa-weibo'></i>"
 
 [[menu.topbar]]
     weight = 3
@@ -133,7 +139,7 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
+    text = """<p class="hidden-sm hidden-xs">联系中国社区核心组织者：organizer@ChinaDevOpsDays.org</p>
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
       </p>
@@ -163,15 +169,15 @@ paginate = 10
     # at 'exampleSite/data/testimonials'.
     # For more informtion take a look at the README.
     title = "社区活动"
-    subtitle = "我们会不定期得在线上和线下举办精彩的活动，敬请关注，下面是历史活动记录"
+    subtitle = "在全国各个城市，由志愿者定期地在线上和线下举办聚会活动，敬请关注，近期的社区动态如下"
 
 [params.see_more]
     enable = true
-    icon = "fa fa-pagelines"
-    title = "参与进来"
-    subtitle = "加入 DevOps 爱好者群体"
-    link_url = "/contact"
-    link_text = "查看加入方式"
+    icon = "fa fa-bullhorn"
+    title = "参与社区"
+    subtitle = "加入开放型的中国DevOps实践者社区，欢迎个人和企业自由的形式加入，并参与社区的建设和DevOps运动"
+    link_url = "/organizing/"
+    link_text = "查看组织方式"
 
 [params.clients]
     enable = true
@@ -179,9 +185,9 @@ paginate = 10
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
     title = "参与者"
-    subtitle = "DevOps知识库卓越贡献者"
+    subtitle = "从关注、到加入，到贡献，社区欢迎各个层次的参与者"
 
 [params.recent_posts]
     enable = true
     title = "最新博客"
-    subtitle = "社区参与者的博客与最 in 的新闻都在这里"
+    subtitle = "社区的最新动态和知识库文章，包括最新活动和大会的分享"

@@ -1,10 +1,34 @@
 +++
-title = "Contact"
+title = "欢迎参与社区"
 id = "contact"
 +++
 
-# We are here to help you
+# 社区志愿者报
 
-Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.
+## 指导思想
 
-Please feel free to contact us, our customer service center is working for you 24/7.
+随着DevOpsDays大会和相关活动在国内的深入开展，目前国内的IT领域里正掀起了一场关于技术、文化和管理的“DevOps运动”。
+
+中国DevOpsDays的核心组织者们紧紧地围绕着加速经验分享、知识传播和实践推广的工作目标，以提升和优化IT行业的素质和文化为主线。本着“平等、分享、互助和进步”的社区精神，号召大家积极地参与到DevOps社区志愿者服务中来。
+
+志愿者招募对象：来自全国各个城市，对DevOps的由来和历史有初步的了解，有分享精神，能在线上或线下的各种社区活动里以社区推广大使身份参与并与社区互动。
+
+## 社区活动内容
+
+以下是社区活动内容的征询稿，希望以后会逐步完善，希望下列各种类的活动能在全国各个城市的线上和线下蓬勃开展。
+
+### A1-DevOps经验分享/读书会
+以任一志愿者，或者几个志愿者的自组织团队为单位，发起组织，并开展和实施线上和线下的小型分享会，活动时间是1小时到3小时。志愿者们负责识别和提议分享主题和分享人。推广和宣传活动信息。推荐和识别所需的场地（针对线下活动）。参与报名、签到、反馈收集和分析等活动。事后回顾总结，计划后期活动。
+
+### A2-DevOps MeetUp
+以城市为单位，由城市的主要负责人（由社区推举）发起，定期的举办DevOps社区MeetUp活动。志愿者们负责参与活动的计划，活动的推广，分享主题征集，活动日程安排，人员报名、签到和反馈收集和分析等活动。活动时间可以是周末半天/全天，或者下班以后时段，时间长度4小时以上，不包含日程结束之后的自由社交时间。推荐和识别所需要的场地和赞助商。
+
+### A3-DevOpsDays大会
+协助和配合大会组委会，参与大会的运作，推广大会日程，参与大会的各种会务工作。在大会的过程中积极的和与会者互动，共同营造和谐良好的DevOps社区氛围。
+
+## 参与报名
+请点击下方链接，注册报名，或者扫码填表。
+
+http://devopsdays-volunteer.mikecrm.com/RuTI3X9
+
+![报名](/img/RuTI3X9.png)

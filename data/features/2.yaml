@@ -1,0 +1,4 @@
+weight: 2
+name: "Automation-自动化"
+icon: "fa fa-cogs"
+description: "在代码变更到生产部署的整个过程中，自动化一切可以自动化化的东西，加速持续交付的速率，提高基础架构的自助服务能力。"
