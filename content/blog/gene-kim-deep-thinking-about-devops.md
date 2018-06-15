@@ -2,12 +2,11 @@
 title: "畅销书《凤凰项目》之后-作者对DevOps的深度思考"
 date: 2018-06-06T06:44:46+08:00
 draft: false
-banner: "https://ws1.sinaimg.cn/large/00704eQkgy1frk001fkixj30rs0ku4qp.jpg"
-author: "admin"
-summary: "《凤凰项目》是Gene Kim作为主创于2013年出版的一本小说体IT管理读物，是公认的DevOps入门第一本书。这本书从构思到成书花了10多年时间，出版之后获得了巨大的成功。
-《凤凰项目》颠覆性的意义在于把过去60多年在工业生产领域的最佳实践引入到软件交付的生命周期中。 这里涉及的主要概念包含限制理论（TOC）和DevOps的三步工作法：系统思维（在《DevOps Handbook》里称为Flow），反馈，以及持续学习与实验。"
+banner: "/img/blog-bg.jpg"
+author: "许峰"
+summary: "《凤凰项目》是Gene Kim作为主创于2013年出版的一本小说体IT管理读物，是公认的DevOps入门第一本书。这本书从构思到成书花了10多年时间，出版之后获得了巨大的成功。《凤凰项目》颠覆性的意义在于把过去60多年在工业生产领域的最佳实践引入到软件交付的生命周期中。"
 tags: ["devops","凤凰项目"]
-categories: ["devops"]
+categories: ["分享"]
 ---
 
 # 前言
@@ -16,7 +15,8 @@ categories: ["devops"]
 
 《凤凰项目》颠覆性的意义在于把过去60多年在工业生产领域的最佳实践引入到软件交付的生命周期中。 这里涉及的主要概念包含限制理论（TOC）和DevOps的三步工作法：系统思维（在《DevOps Handbook》里称为Flow），反馈，以及持续学习与实验。
 
-![Picture1](https://china-devopsdays.github.io/old/Picture1.png)<br>
+![Picture1](/old/Picture1.png)
+
 *《凤凰项目》沙盘特别版* 
 
 由于《凤凰项目》更多是新的思维方式的介绍，书中并没有涉及太多具体的实践层面的内容。Gene Kim在此之后，联合其他三位DevOps行业里的顶级专家（Jez Humble，John Willis, Patrick Debois)，计划出版一本DevOps实践指南（《DevOps Handbook》）。由于四位都是DevOps行业里的顶级专家，所以很乐观的估计2～3年就可以出版了。最后这本书的创作到出版花了5年多时间。为什么会这么长时间呢？Gene Kim在2017年的DevOpsDays 西雅图站做了阐述。因为在写作过程中，有很多出乎作者意料之外的发现。Gene Kim在这个主题演讲就对这些“意外”做了总结，共有六个方面。
@@ -25,7 +25,8 @@ categories: ["devops"]
 
 为了更量化地理解不同IT绩效组织的状况，Gene Kim、Jez Humble（《持续交付》、《Lean Enterprise》作者）和Nicole Forsgren一起成立了DORA（DevOps Research & Assessment）公司，专注于IT组织的绩效调查，并从2014年开始和Puppet合作每年发布一版年度《State of DevOps Report》（DevOps 现状调查报告）。在演讲中，Gene Kim引用了2016年的调查数据：比较起低效能的IT组织，高效能IT组织的部署频率是前者的200倍，交付前置时间比前者少，变更失败比率低5倍。（注：2017年的报告里这些数据有变化：低效能组织在速度上有提升，但在稳定性上差距拉大）。总体上高效能组织在生产力和稳定性方面有明显的优势。
 
-![Picture2](https://china-devopsdays.github.io/old/Picture9.png)
+![Picture2](/old/Picture9.png)
+
 *IT效能指标：2016和2017的数据对比（摘自《2017 State of DevOps Report》）*
 
 而IT的绩效对公司业务也有显著影响：拥有高绩效IT组织的公司其平均市值比要比那些IT绩效低下的公司高50%。
@@ -36,26 +37,31 @@ categories: ["devops"]
 
 《凤凰项目》的副标题是“一个IT运维的传奇故事”，实际上也是从一位运维经理的视角写的。DevOps可以把运维人员从非人类的作息时间里拯救出来。比如下面这位哥们。
 
-![Picture3](https://china-devopsdays.github.io/old/Picture2.png)
+![Picture3](/old/Picture2.png)
+
 *（编者：最近一个从事运维的学员表示她的生活差不多就是这样子滴）*
 
 DevOps对开发人员也一样帮助大大滴。比如下面这位开心喝着啤酒的哥们。
 
-![Picture4](https://china-devopsdays.github.io/old/Picture3.png)
+![Picture4](/old/Picture3.png)
+
 DevOps提倡打破部门墙，建立不怪罪的互信文化，通过自动化手段快速定位问题、及时反馈，团队共用一套工具、知识共享，着眼全局避免局部优化，遵守统一规则，建立可视化价值流，开发人员也要对运维工作负责，版本上线和演练日都发生在工作时间等等。这些实践都使IT更有效率、减少无意义的浪费、工作更有成就感，也更加有趣和人性化。DevOps的理念现在也在被更多的部门所采用，已经应用到业务部门。
 # 三、衡量代码部署前置时间的重要性
 
 从2009年那场著名的演讲《10+ Deploys per Day：Dev and Ops Cooperation at Flickr》开始，部署频率已经是衡量DevOps成熟度的一个关键指标。但在工业领域，前置时间一直被用来作为衡量生产绩效的最重要的指标。经过过去几年的发展，部署前置时间（从开发者提交代码到版本控制系统开始，到代码部署上线这一总时长）已经被DevOps社区采用为除部署频率之外的另一个衡量速度的关键指标。
 
-![Picture5](https://china-devopsdays.github.io/old/Picture4.png)
+![Picture5](/old/Picture4.png)
+
 *前置时间从提交阶段开始到部署到生产环境*
 
 Gene在这里给出了他的分析，为什么前置时间应该聚焦在部署这一阶段而非整个交付生命周期。从下表可以看到，在代码提交之前的活动，是设计和开发类型的活动。这一部分基本上是不可重复的、很难自动化，它的时长也往往难以直接控制。而代码提交到上线主要是测试和运维工作，完全可以做到可重复、自动化、机械化。而这一前置时间的快速完成可以给到前一阶段（设计和开发）足够短的反馈周期，用以快速解决问题和响应客户需求。
 
-![Picture6](https://china-devopsdays.github.io/old/Picture5.png)
+![Picture6](/old/Picture5.png)
+
 *软件交付周期可以以提交到版本控制系统划分为性质截然不同的两个阶段*
 
 如果按照传统的瀑布模型开发软件，可能在测试阶段发现的代码问题已经是在代码完成几个月之后了。在这期间，团队很多开发人员都已经提交过各自的代码，那么如何能让开发人员确认、回忆并找出问题所在呢？这需要花费大量的时间。而高绩效组织少于一个小时的部署前置时间就可以让组织和个人做到快速试错、持续学习。
+
 # 四、康威定律的应用
 
 康威定律的描述是“设计系统的组织，其产生的设计和架构等价于组织间的沟通结构“。
@@ -64,13 +70,14 @@ Gene在这里给出了他的分析，为什么前置时间应该聚焦在部署�
 
 Gene Kim本人一直困惑于也这一定律的应用，直到他了解到Etsy的例子：
 
-Etsy在2008年有一个前端PHP开发团队负责业务逻辑，和一个后端DBA团队负责存储过程，两个团队协同开发软件。根据康威定律，这自然而然产生了有依赖关系的两层架构。而这种依赖关系使得很多工作都快不起来。
+>Etsy在2008年有一个前端PHP开发团队负责业务逻辑，和一个后端DBA团队负责存储过程，两个团队协同开发软件。根据康威定律，这自然而然产生了有依赖关系的两层架构。而这种依赖关系使得很多工作都快不起来。
 
-为了解决这一问题，Etsy在2009引入了Sprouter作为中间层，期望前端开发人员专注PHP代码的编写，DBA专注于编写存储过程，而Sprouter（及其维护团队）帮助隐藏数据库的实现细节，并对接PHP代码和对应的存储过程。本来这一变化意在简化和协调前后端的工作，结果按照康威定律，原来一个变更需要改动两层，而现在三层都需要改动。这使得前置时间变得更长，而且可靠性也跟着降低（单点故障）。
+>为了解决这一问题，Etsy在2009引入了Sprouter作为中间层，期望前端开发人员专注PHP代码的编写，DBA专注于编写存储过程，而Sprouter（及其维护团队）帮助隐藏数据库的实现细节，并对接PHP代码和对应的存储过程。本来这一变化意在简化和协调前后端的工作，结果按照康威定律，原来一个变更需要改动两层，而现在三层都需要改动。这使得前置时间变得更长，而且可靠性也跟着降低（单点故障）。
 
 2010年：意识的问题的Etsy管理团队决定彻底移除Sprouter，并把所有业务逻辑都从数据库层移到应用层。同时引入PHP ORM（Object Relational Mapping）来映射对象和数据库表的关系。这一改变使得所有业务逻辑变更都可以由一个团队来完成。
 
-![Picture7](https://china-devopsdays.github.io/old/Picture6.png)
+![Picture7](/old/Picture6.png)
+
 *Etsy Sprouter的诞生与死亡*
 
 从这一案例可以看到，当组织架构设计不好时，康威定律对组织的效能是一种伤害。而如果我们围绕目标精心设计组织架构，康威定律就会对我们的工作起到正向的促进作用。
@@ -78,7 +85,9 @@ Etsy在2008年有一个前端PHP开发团队负责业务逻辑，和一个后端
 # 五、DevOps使得组织成长为动态的学习型组织
 
 在这里Gene介绍了他在写作《DevOps Handbook》时的最大发现：Steven Spear博士的“四个能力”模型，及其对DevOps的重要指导意义。
-![Picture8](https://china-devopsdays.github.io/old/Picture7.png)
+
+![Picture8](/old/Picture7.png)
+
 *Steven Spear博士的“四个能力”模型*
 
 这四个能力在DevOps的实践中都能找到完整的对应。
@@ -105,11 +114,14 @@ Gene最后给出他的结论：按照IDC的报告，地球上有800万开发人�
 早在《凤凰项目》出版的五六年前作者Gene Kim曾经参加过由欧洲著名沙盘公司Gaming Works创始人Paul Wilkingson亲自挂帅组织的“阿波罗13号”知名IT服务管理沙盘。《凤凰项目》出版后Gene Kim再次找到了Gaming Works的Paul并表达了开发DevOps沙盘的想法。在2016 年本文开篇的那本《凤凰项目-沙盘特别版》图书和凤凰项目沙盘诞生，随即受到全球DevOps实践者的追捧，凤凰项目沙盘的发布将《凤凰项目》图书的热度再次推向高潮。
 
 ## 关于《DevOps Handbook》的故事
-![Picture9](https://china-devopsdays.github.io/old/Picture8.png)
+
+![Picture9](/old/Picture8.png)
+
 *《DevOps Handbook》编写历5年多时间，收入众多企业DevOps转型案例*
 
 Gene Kim这个演讲其实也是对《DevOps Handbook》成书前后的简单介绍。非常推荐对DevOps实践有更深兴趣的人群阅读（该书中文版《DevOps实践指南》将于2018年春出版并在DevOpsDays北京站举行签发仪式》），此外，该书已经被EXIN国际信息科学考试学会指定为全球DevOps Professional认证考试的唯一官方教材。中文版将包含该认证考试的样题和解析部分。
 
-<center>本文编译：许峰</center>
-![Picture9](https://china-devopsdays.github.io/old/xufeng-round.png)
-<center>EXIN DevOps 授权讲师，国际最佳实践管理联盟（IBPA）特邀专家</center>
+* 本文编译：许峰
+* EXIN DevOps 授权讲师，国际最佳实践管理联盟（IBPA）特邀专家
+
+
