@@ -167,7 +167,7 @@ paginate = 10
 # 最新博客栏目
 [params.recent_posts]
     enable = true
-    title = "最新博客"
+    title = "最新动态"
     subtitle = "社区参与者的博客与最 in 的新闻都在这里"
 ```
 
@@ -288,7 +288,7 @@ avatar: "https://ws1.sinaimg.cn/large/00704eQkgy1frmobjwmuoj31z21z61ky.jpg"
 ```yaml
 [params.recent_posts]
     enable = true
-    title = "最新博客"
+    title = "最新跟新"
     subtitle = "社区参与者的博客与最 in 的新闻都在这里"
 ```
 

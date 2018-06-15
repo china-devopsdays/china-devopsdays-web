@@ -5,7 +5,7 @@ draft: false
 banner: "/old/WechatIMG123.jpeg"
 author: "组织者"
 summary: "中国的第一次DevOpsDays大会在2017年3月18日在北京召开，这开启了中国大陆DevOps的元年，从此DevOps社区开始生根发芽。"
-tags: ["DevOps", "DevOpsDays", "中国", "2017北京","中国"]
+tags: ["DevOps", "DevOpsDays","2017北京站"]
 categories: ["大会"]
 ---
 ![](/old/WechatIMG123.jpeg)

@@ -11,10 +11,10 @@
   translation: "跳到联系页面"
 
 - id: contactAddrTitle
-  translation: "地址"
+  translation: "联系方式"
 
 - id: contactTitle
-  translation: "联系"
+  translation: "联系方式"
 
 - id: contactForm
   translation: "联系表单"
@@ -56,7 +56,7 @@
   translation: "作者"
 
 - id: recentPosts
-  translation: "最新博客"
+  translation: "最新文章"
 
 - id: aboutUs
   translation: "关于我们"

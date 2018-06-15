@@ -121,13 +121,12 @@ paginate = 10
     date_format = "2006-01-02"
 
     logo = "img/logo.png"
-    address = """<p><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
+    address = """<p>官网网址：</strong>
+        <br>http://DevOpsDays.org
+        <br>官方微信号：
+        <br>OfficialDevOpsDays
+        <br>中国组织者邮箱：
+        <br>organizer@ChinaDevOpsDays.org
       </p>
       """
     latitude = "-12.043333"
@@ -189,5 +188,5 @@ paginate = 10
 
 [params.recent_posts]
     enable = true
-    title = "最新博客"
+    title = "最新动态"
     subtitle = "社区的最新动态和知识库文章，包括最新活动和大会的分享"

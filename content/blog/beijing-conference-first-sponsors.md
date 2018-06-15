@@ -5,7 +5,7 @@ draft: false
 banner: "/img/blog-bg.jpg"
 author: "组织者"
 summary: "我们非常兴奋的宣布今年的首批赞助商名单，DevOpsDays中国社区感谢你们的大力支持。让我们共同推动中国的DevOps运动的发展。"
-tags: ["2018北京","赞助商"]
+tags: ["2018北京站","赞助商"]
 categories: ["大会"]
 ---
 
