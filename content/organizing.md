@@ -1,9 +1,7 @@
 +++
-title = "组织"
-description = "社区的组织形式"
-keywords = ["","","",""]
-tags = []
-categories = []
+title = "社区的组织形式"
+description = "中国DevOpsDays社区的组织形式"
+keywords = ["DevOps","DevOpsDays","中国DevOps社区","DevOpsDays中国"]
 +++
 
 
@@ -24,3 +22,4 @@ categories = []
 ## DevOps社区志愿者
 
 DevOpsDays官网的页面 https://www.devopsdays.org/events/2018-shanghai/contact/
+

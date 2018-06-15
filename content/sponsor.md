@@ -1,9 +1,7 @@
 +++
-title = "赞助"
-description = "赞助和支持社区"
-keywords = ["","","",""]
-tags = []
-categories = []
+title = "支持和赞助中国DevOpsDays社区"
+description = "支持和赞助中国DevOpsDays社区的形式和方法"
+keywords = ["DevOps","DevOpsDays","中国DevOps社区","DevOpsDays中国"]
 +++
 
 ![](/old/sponsor.jpg)
@@ -58,3 +56,5 @@ categories = []
 
 * 赞助方数量：1家
 * 赞助方权益：赞助产品出现在每个座位 (赞助产品须由主办方指定);赞助产品包装中含有赞助方说明。
+
+

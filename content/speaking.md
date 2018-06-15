@@ -1,9 +1,7 @@
 +++
-title = "演讲"
-description = "演讲"
-keywords = ["","","",""]
-tags = []
-categories = []
+title = "分享和演讲机会"
+description = "在中国DevOpsDays社区的大会和社区里分享和演讲"
+keywords = ["DevOps","DevOpsDays","中国DevOps社区","DevOpsDays中国"]
 +++
 
 ![](/old/bg-speaking.jpg)
@@ -23,3 +21,4 @@ categories = []
 ## DevOps社区演讲大使
 
 虚席以待。
+

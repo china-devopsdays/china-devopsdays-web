@@ -1,7 +1,7 @@
 +++
 title = "关于中国DevOpsDays社区"
 description = "关于中国DevOpsDays社区的介绍和简单状况"
-keywords = ["","","",""]
+keywords = ["DevOps","DevOpsDays","中国DevOps社区","DevOpsDays中国"]
 tags = []
 categories = []
 +++

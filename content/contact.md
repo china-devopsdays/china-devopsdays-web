@@ -1,6 +1,8 @@
 +++
-title = "欢迎参与社区"
+title = "参与社区"
 id = "contact"
+description = "参与中国DevOpsDays社区的方法和说明"
+keywords = ["DevOps","DevOpsDays","中国DevOps社区","DevOpsDays中国"]
 +++
 
 # 社区志愿者报
@@ -32,3 +34,4 @@ id = "contact"
 http://devopsdays-volunteer.mikecrm.com/RuTI3X9
 
 ![报名](/img/RuTI3X9.png)
+
