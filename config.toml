@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "https://china-devopsdays.github.io"
 title = "中国DevOpsDays社区"
 theme = "hugo-universal-theme"
 # themesDir = "../.."
@@ -8,7 +8,7 @@ defaultContentLanguage = "zh"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+#googleAnalytics = ""
 # Code highlight
 pygmentsUseClasses = false
 pygmentCodeFences = true
