@@ -7,7 +7,7 @@ keywords = ["DevOps","DevOpsDays","中国DevOps社区","DevOpsDays中国"]
 ![赞助](/old/sponsor.jpg)
 ## 会议赞助
 
-* 白金赞助方 ： 数量2家
+* 白金赞助方 ：数量2家
 * 金牌赞助方：数量10家
 * 银牌赞助方：数量10家
 
@@ -23,6 +23,7 @@ keywords = ["DevOps","DevOpsDays","中国DevOps社区","DevOpsDays中国"]
 * 杭州：华为创新中心
 * 大连：华为创新中心
 * 青岛：华为创新中心
+* 程度：ThroughWorks办公室
 * 武汉：ThroughWorks办公室
 * 西安：ThroughWorks办公室
 * 深圳：小赢理财
