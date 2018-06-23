@@ -17,7 +17,7 @@ install:
 script:
   - hugo version
   - hugo # This commands builds your website on travis
-  - cp README.md public
+  - cp README.md CNAME public
 
 
 deploy:
