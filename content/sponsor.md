@@ -19,7 +19,7 @@ keywords = ["DevOps","DevOpsDays","中国DevOps社区","DevOpsDays中国"]
 
 * 北京： 
     - 中关村e世界财富中心联合工社-P2·游乐园 
-    - 望京HPE办公室
+    - 望京HPE办公室 （望京）
 * 杭州：华为创新中心
 * 大连：华为创新中心
 * 青岛：华为创新中心
