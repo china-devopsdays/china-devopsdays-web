@@ -23,9 +23,9 @@ keywords = ["DevOps","DevOpsDays","中国DevOps社区","DevOpsDays中国"]
 * 杭州：华为创新中心
 * 大连：华为创新中心
 * 青岛：华为创新中心
-* 程度：ThroughWorks办公室
-* 武汉：ThroughWorks办公室
-* 西安：ThroughWorks办公室
+* 成都：ThroughWorks 办公室（成都市高新区天府大道中段1268号天府软件园E区1栋）
+* 武汉：ThroughWorks 办公室（武汉市洪山区关山大道332号保利国际中心20层）
+* 西安：ThroughWorks 办公室（陕西省西安市高新区天谷八路211号环普科技产业园E座）
 * 深圳：小赢理财
 
 
