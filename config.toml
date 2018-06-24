@@ -120,7 +120,7 @@ paginate = 10
     # Format dates with Go's time formatting
     date_format = "2006-01-02"
 
-    logo = "img/logo.png"
+    logo = "/img/logo.png"
     address = """<p>官网网址：</strong>
         <br>http://DevOpsDays.org
         <br>官方微信号：
