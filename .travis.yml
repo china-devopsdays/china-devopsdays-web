@@ -13,21 +13,21 @@ install:
     - rm -rf public 2> /dev/null
 
 
-
+# 构建全站的所有网页
 script:
-  - hugo version
-  - hugo # This commands builds your website on travis
-  - cp README.md CNAME public
+  - hugo version # 显示hugo的版本
+  - hugo # 在Travis里构建全站页面到public目录中
+  - cp README.md CNAME public  # 将必要的文件复制到public中
 
-
+#部署public中的所有内容到目标repo中
 deploy:
-  local_dir: public # Default static site output dir for Hugo
-  repo: china-devopsdays/china-devopsdays.github.io # This is the slug of the repo you want to deploy your site to
-  target_branch: master # GitHub pages branch to deploy to (in other cases it can be gh-pages)
+  local_dir: public # 部署的源是本地的public目录 
+  repo: china-devopsdays/china-devopsdays.github.io # 部署的目的地是这个repo路径
+  target_branch: master # GitHub pages 的部署的目标分支是master，很多使用也用的是gh-pages分支
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN # This is the authentication which you will setup in the next step in travis-ci dashboard
-  email: liuzh66@gmail.com
+  github_token: $GITHUB_TOKEN # 跨repo部署需要使用一个Github的TOKEN鉴权，在github账户的个人配置里获取
+  email: liuzh66@gmail.com # TOKEN对应的账户的邮箱
   name: "Martin Liu"
   on:
-    branch: master
+    branch: master 
