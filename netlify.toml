@@ -1,0 +1,11 @@
+# Production context: All deploys to the main
+# repository branch will inherit these settings.
+ 
+#[context.production.environment]
+#   HUGO_VERSION = "0.31.1"
+   
+#[context.deploy-preview.environment]
+#  HUGO_VERSION = "0.31.1"
+  
+#[context.branch-deploy.environment]
+#  HUGO_VERSION = "0.31.1"

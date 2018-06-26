@@ -113,7 +113,7 @@ paginate = 10
     # Go语言格式的时间模板
     date_format = "2006-01-02"
 	# 网站logo
-    logo = "img/logo.png"
+    logo = "/img/logo.png"
     address = """<p><strong>ServiceMesher.</strong>
       """
 
