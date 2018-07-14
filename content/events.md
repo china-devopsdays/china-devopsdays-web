@@ -10,7 +10,7 @@ categories = []
 
 即将盛大召开的是2018年DevOpsDays大会上海站。
 
-![社区](/events/2018-shanghai.jpeg)
+![社区](/events/shanghai-2018.JPG)
 
 ### CFP - 提交分享主题
 
